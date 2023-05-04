@@ -1,0 +1,14 @@
+* {
+    border-style: dotted solid;
+    border-color: red;
+}
+
+header {
+    justify-content: center;
+}
+
+.postCard {
+    width: 400px;
+height: 600px;
+padding: 20px;
+}
