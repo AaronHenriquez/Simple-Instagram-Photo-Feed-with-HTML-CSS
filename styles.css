@@ -1,14 +1,52 @@
-* {
-    border-style: dotted solid;
-    border-color: red;
-}
+/* * {
+	border: 1px dotted red;
+} */
 
 header {
-    justify-content: center;
+	text-align: center;
+	background-color: white;
 }
 
-.postCard {
-    width: 400px;
-height: 600px;
-padding: 20px;
+body {
+	background-color: lightgrey;
+	position: absolute;
+	left: 25%;
+}
+
+.photoCard {
+	width: 400px;
+	height: 650px;
+	/* padding: 20px; */
+	border-radius: 1px;
+	background-color: white;
+	margin-bottom: 50px;
+}
+
+.photoCardheader {
+	display: flex;
+	margin-bottom: 5px;
+	border: 1px;
+	border-color: black;
+}
+
+.photoTitle {
+	font-weight: bold;
+	display: flex;
+	width: 70%;
+}
+
+.numberOfPhotos {
+	display: flex;
+	width: 30%;
+	justify-content: right;
+}
+
+.photoCardPhoto img {
+	display: flex;
+	width: 400px;
+	height: 500px;
+}
+
+.photoCardFooter p {
+	text-align: justify;
 }
